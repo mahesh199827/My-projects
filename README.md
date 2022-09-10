@@ -1,7 +1,11 @@
 # Portuguese-bank-marketing-project
 Portuguese bank marketing prediction :
+
 The data is related with direct marketing campaigns of a Portuguese banking  institution.  The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed.
+
+
 Data description:
+
 1. Age            - Referring to age of a person.
 
 2. job            - Represents employment status of a person.
@@ -43,16 +47,27 @@ Data description:
 20. nr.employed    - Number of employees
 
 21. Y              - Subscribed term deposit or not.
+
+
 EDA and insights:
+
 ![image](https://user-images.githubusercontent.com/103163052/189482478-79fc2d8b-f931-44db-ac2e-172b229c7f6a.png)
+
 	Through the pie chart, it is observed that out of all the total clients only 11.27% subscribed for the term deposits and the rest didn't.
 	Duration plays major role in subscribing to the deposit.
 	Students and retired people subscribing the more.
+
+
 Data preprocessing:
+
 	The data contains lots of unknown values and it was replaced by highly repeated values for better prediction.
 	I used lots of encoding techniques like frequency encoding, label encoding and manual encoding according to the type of data.
 	Then i handled outliers for the following features like age, duration, campaign, pdays, previous and consumer confidence index.
 	Then i scaled the data for better performance.
+
+
 Model Comparison:
+
+
 I used lots of algorithms to check which model is performing well . Look at the following table for better model.
 ![Capture](https://user-images.githubusercontent.com/103163052/189482684-cbf74103-4c92-435c-83fc-6eca25ab2381.PNG)
